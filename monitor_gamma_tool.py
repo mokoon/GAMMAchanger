@@ -8,7 +8,6 @@ import json
 import os
 import atexit  # 프로그램 종료 이벤트를 감지하기 위해 추가
 
-# --- Windows API 설정 (이전과 동일) ---
 gdi32 = ctypes.windll.gdi32
 user32 = ctypes.windll.user32
 user32.GetDC.argtypes = [wintypes.HWND]
@@ -46,7 +45,6 @@ class GammaController:
         atexit.register(self.force_reset)
 
     def setup_ui(self):
-        # (기존 setup_ui 코드와 동일...)
         adj_frame = ttk.LabelFrame(self.root, text="실시간 조절")
         adj_frame.pack(padx=10, pady=5, fill="x")
         self.create_slider(adj_frame, "밝기", self.brightness, 0.5, 2.0)
@@ -193,4 +191,5 @@ if __name__ == "__main__":
         root.destroy()    # 창 닫기
         
     root.protocol("WM_DELETE_WINDOW", on_closing)
+
     root.mainloop()
