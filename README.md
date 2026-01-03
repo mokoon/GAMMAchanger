@@ -5,9 +5,7 @@
 # 사용법
 
 다운로드
-https://drive.google.com/file/d/1nBvFewBk4LzyHZhbbRGgtOcibUZl0azh/view?usp=drive_link
-
-혹은 프로젝트 내 .exe파일 다운로드
+프로젝트 내 .exe파일 다운로드
 
 관리자 권한으로 실행 필수
 자동 관리자 권한으로 실행되도록 빌드하였으나 다른 컴퓨터에서 테스트 해보지 못했으므로 실행이 안 될 경우 관리자 권한으로 실행할 것
