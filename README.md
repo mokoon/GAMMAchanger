@@ -2,7 +2,7 @@
 
 듀얼 모니터를 고려해서 모니터 1에서만 동작하도록 만들었음 추후 필요할 시 모니터 마다 따로 설정이 가능하도록 기능 추가 가능성 있음
 
-#사용법
+# 사용법
 
 다운로드
 https://drive.google.com/file/d/1nBvFewBk4LzyHZhbbRGgtOcibUZl0azh/view?usp=drive_link
@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1nBvFewBk4LzyHZhbbRGgtOcibUZl0azh/view?usp=drive
 게임에서 사용하려면 전체 창모드에서 사용하는걸 권장
 다른 키를 누르고 있는 상태에서는 단축키를 눌러도 동작이 안됨 프리셋을 적용시킬 때에는 해당하는 키만을 누를것
 
-#추가 할지도 모르는 기능들
+# 추가 할지도 모르는 기능들
 최소화시 작업 관리자가 아니라 시스템 트레이 아이콘으로 가도록 설정
 프로그램 아이콘, 실행중 아이콘
 모니터마다 각각으로 설정기능(모니터 여러대일때)
